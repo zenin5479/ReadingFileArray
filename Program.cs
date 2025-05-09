@@ -8,8 +8,8 @@ namespace ReadingFileArray
    {
       static void Main()
       {
-         string filePath = AppContext.BaseDirectory + "a.txt";
-         //string filePath = AppContext.BaseDirectory + "b.txt";
+         //string filePath = AppContext.BaseDirectory + "a.txt";
+         string filePath = AppContext.BaseDirectory + "b.txt";
          Console.BackgroundColor = ConsoleColor.DarkBlue;
          // Чтение файла за одну операцию
          string[] allLines = File.ReadAllLines(filePath);
