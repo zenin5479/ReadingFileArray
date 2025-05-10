@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Globalization;
 using System.IO;
 using System.Text;
 
@@ -10,7 +9,7 @@ namespace ReadingFileArray
       static void Main()
       {
          // Переводит (,) в (.)
-         System.Threading.Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
+         //System.Threading.Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
 
          //string filePath = AppContext.BaseDirectory + "a.txt";
          string filePath = AppContext.BaseDirectory + "b.txt";
