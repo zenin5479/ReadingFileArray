@@ -131,7 +131,7 @@ namespace ReadingFileArray
                      {
                         string subLine = stringModified.ToString();
                         arrayDouble[row, column] = Convert.ToDouble(subLine);
-                        Console.Write(arrayDouble[row, column] + " ");
+                        Console.Write(arrayDouble[row, column]);
                         stringModified.Clear();
                         column++;
                      }
