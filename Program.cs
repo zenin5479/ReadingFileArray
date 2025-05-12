@@ -13,7 +13,6 @@ namespace ReadingFileArray
 
          //string filePath = AppContext.BaseDirectory + "a.txt";
          string filePath = AppContext.BaseDirectory + "b.txt";
-         Console.BackgroundColor = ConsoleColor.DarkBlue;
          // Чтение файла за одну операцию
          string[] allLines = File.ReadAllLines(filePath);
          if (allLines == null)
@@ -23,6 +22,7 @@ namespace ReadingFileArray
          else
          {
             Console.WriteLine("Исходный массив строк");
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
             string[] arrayLines = new string[allLines.Length];
             for (int i = 0; i < allLines.Length; i++)
             {
