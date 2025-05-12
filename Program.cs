@@ -99,9 +99,8 @@ namespace ReadingFileArray
             Console.WriteLine();
 
             // Разделение строки на подстроки по пробелу и конвертация подстрок в double
-            Console.BackgroundColor = ConsoleColor.Magenta;
             Console.WriteLine("Двухмерный числовой массив");
-
+            Console.BackgroundColor = ConsoleColor.Magenta;
             StringBuilder stringModified = new StringBuilder();
             double[,] arrayDouble = new double[arrayLines.Length, max];
             char spaceCharacter = ' ';
